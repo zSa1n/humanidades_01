@@ -36,11 +36,9 @@ html, body {
 }
 
 
-.image1-resize{
 
-height: 311px;
-width: 400px;
-}
+
+
 body {
 	font-family: 'Lato', sans-serif;
 }
@@ -70,6 +68,8 @@ a:hover,a:active,a:focus{
     border-radius: 0px;
     font-size: 1.2em;
     transition: 0.4s ease all;
+
+	
 }
 .btn:hover {
     background: #fff;
@@ -90,6 +90,9 @@ a:hover,a:active,a:focus{
     position: relative;
     width: 42%;
     vertical-align: middle;
+
+
+
 }
 .block_title:before {
     right: 0.5em;
@@ -110,6 +113,7 @@ header{
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 50% -50px;
+	
 }
 .center {
     text-align: center;
