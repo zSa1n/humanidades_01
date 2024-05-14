@@ -35,10 +35,21 @@ html, body {
     height:100%;
 }
 
+
+.image1-resize{
+
+height: 311px;
+width: 400px;
+}
 body {
 	font-family: 'Lato', sans-serif;
 }
-h1,h2,h3,h4,h5,h6 {
+
+h1{
+	font-family: 'Dosis', sans-serif;
+	color: #000;
+}
+h2,h3,h4,h5,h6 {
 	font-family: 'Dosis', sans-serif;
 }
 a {
@@ -626,7 +637,7 @@ footer {
 @media all and (max-width: 991px) {
 
 	header{
-		background: url(../images/bg.jpg) no-repeat;
+		background: url(../images/bg-small.jpg) no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: 50% -50px;
